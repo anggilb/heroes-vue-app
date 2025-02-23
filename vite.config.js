@@ -10,4 +10,10 @@ export default defineConfig({
       '@': resolve(__dirname, './src'),
     },
   },
+  server: {
+    headers: {
+      'Content-Security-Policy':
+        "default-src 'self'; font-src 'self' data: https://fonts.gstatic.com;",
+    },
+  }
 })
