@@ -73,7 +73,7 @@ loadData()
   border-radius: 8px;
   margin: 5px;
   position: relative;
-  max-width: 180px;
+  max-width: 350px;
   padding: 10px;
   align-items: center;
 }
